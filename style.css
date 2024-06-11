@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body {
+  width: 1280px;
+  text-align: center;
+}
+body .main-btn {
+  margin-top: 40px;
+  height: 40px;
+  border-radius: 20px;
+  transition: background-color 0.9s ease;
+}
+body .main-btn:hover {
+  background-color: rgb(50, 173, 87);
+  cursor: pointer;
+  box-shadow: aquamarine;
+}
+body .square {
+  position: relative;
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid rgb(0, 255, 98);
+}
+body .span-x {
+  position: absolute;
+  right: 7px;
+  top: 5px;
+}
+body .span-x:hover {
+  cursor: pointer;
+  color: rgb(255, 0, 0);
+}/*# sourceMappingURL=style.css.map */
